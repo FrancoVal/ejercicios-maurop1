@@ -1,0 +1,11 @@
+
+int n = 6
+public static int cantDivisores (int n){
+		int cant = 0;
+		for (int i = 1; i <= n; i++) {
+			if(n % i == 0) {
+				cant++;
+			}
+		}
+		return cant;
+	}

@@ -1,0 +1,3 @@
+module ejercicios {
+	exports ejercicios;
+}
